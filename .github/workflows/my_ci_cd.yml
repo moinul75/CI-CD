@@ -2,7 +2,7 @@ name: ci cd pipeline
 on: [push] 
 
 jobs: 
-    run-shell-commands: 
+    run-shell-commsnds: 
         runs-on: ubuntu-leatest 
         steps: 
             - name: checkout 
@@ -13,7 +13,7 @@ jobs:
                npm -v 
 
 
-               
+
 
 
 
